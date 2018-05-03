@@ -1,5 +1,5 @@
-var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca" ];
-function dataHandling2(){
+var x = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca" ];
+function dataHandling2(input){
     input.splice(2, 0, input[1]+' Elsharawy');
     input.splice(1, 1);
     input.splice(2, 0, 'Provinsi ' + input[2]);
@@ -35,6 +35,7 @@ function dataHandling2(){
     
    
 }
-   dataHandling2(input);
+
+   dataHandling2(x);
    
     
